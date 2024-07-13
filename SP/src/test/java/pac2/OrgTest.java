@@ -10,6 +10,7 @@ public class OrgTest {
 		String Browser=System.getProperty("browser");
 		System.out.println(Url);
 		System.out.println(Browser);
+		System.out.println("=====");
 	}
 	@Test
 	public void modifyOrgTest() {
