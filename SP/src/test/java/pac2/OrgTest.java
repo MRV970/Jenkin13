@@ -8,7 +8,8 @@ public class OrgTest {
 		System.out.println("executing createOrgTest");
 		String Url=System.getProperty("url");
 		String Browser=System.getProperty("browser");
-		
+		System.out.println(Url);
+		System.out.println(Browser);
 	}
 	@Test
 	public void modifyOrgTest() {
